@@ -1,0 +1,1 @@
+SoundAnalizer_Debug.exe K.ogg

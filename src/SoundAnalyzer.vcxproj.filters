@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="kiss_fft">
+      <UniqueIdentifier>{484bc1bc-7485-4793-818e-3dcf0a563ced}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Render.cpp" />
+    <ClCompile Include="SoundPlayback.cpp" />
+    <ClCompile Include="kiss_fft.cpp">
+      <Filter>kiss_fft</Filter>
+    </ClCompile>
+    <ClCompile Include="SignalEventDetect.cpp" />
+    <ClCompile Include="Profile.cpp" />
+    <ClCompile Include="Precomp.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Precomp.h" />
+    <ClInclude Include="Render.h" />
+    <ClInclude Include="defines.h" />
+    <ClInclude Include="SoundPlayback.h" />
+    <ClInclude Include="kiss_fft.h">
+      <Filter>kiss_fft</Filter>
+    </ClInclude>
+    <ClInclude Include="_kiss_fft_guts.h">
+      <Filter>kiss_fft</Filter>
+    </ClInclude>
+    <ClInclude Include="SignalEventDetect.h" />
+    <ClInclude Include="Profile.h" />
+  </ItemGroup>
+</Project>
